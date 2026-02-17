@@ -1,0 +1,28 @@
+{
+    "nombre_empresa": "CardioCentro Diagnóstico Integral S.A.S.",
+    "sector": "salud",
+    "subsector": "cardiologia",
+    "pais": "Colombia",
+    "moneda": "COP",
+    "parametros_laborales": {
+        "factor_prestacional": 1.4077,
+        "horas_mensuales": 184,
+        "dias_habiles_mes": 22,
+        "capacidad_practica_pct": 85,
+        "prima_servicios_pct": 8.33,
+        "cesantias_pct": 8.33,
+        "intereses_cesantias_pct": 1.00,
+        "vacaciones_pct": 4.17,
+        "arl_pct": 2.436,
+        "salud_eps_pct": 0,
+        "pension_pct": 12.5,
+        "caja_compensacion_pct": 4.0,
+        "icbf_pct": 0,
+        "sena_pct": 0,
+        "total_prestaciones_pct": 40.77
+    },
+    "parametros_economicos": {
+        "inflacion_anual_pct": 5.5,
+        "tasa_cambio_usd": 4100
+    }
+}

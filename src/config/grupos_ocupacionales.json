@@ -1,0 +1,53 @@
+{
+    "grupos": [
+        {
+            "codigo": "G01",
+            "nombre": "Cardiólogo Especialista",
+            "salario_base": 12000000,
+            "categoria": "Profesional Especializado",
+            "nivel": "Senior"
+        },
+        {
+            "codigo": "G02",
+            "nombre": "Cardiólogo General",
+            "salario_base": 8000000,
+            "categoria": "Profesional",
+            "nivel": "Mid"
+        },
+        {
+            "codigo": "G03",
+            "nombre": "Médico General",
+            "salario_base": 5000000,
+            "categoria": "Profesional",
+            "nivel": "Junior"
+        },
+        {
+            "codigo": "G04",
+            "nombre": "Enfermero Especializado",
+            "salario_base": 3500000,
+            "categoria": "Técnico Especializado",
+            "nivel": "Senior"
+        },
+        {
+            "codigo": "G05",
+            "nombre": "Enfermero",
+            "salario_base": 2800000,
+            "categoria": "Técnico",
+            "nivel": "Mid"
+        },
+        {
+            "codigo": "G06",
+            "nombre": "Técnico Radiólogo",
+            "salario_base": 2500000,
+            "categoria": "Técnico",
+            "nivel": "Mid"
+        },
+        {
+            "codigo": "G07",
+            "nombre": "Auxiliar de Enfermería",
+            "salario_base": 1800000,
+            "categoria": "Auxiliar",
+            "nivel": "Junior"
+        }
+    ]
+}

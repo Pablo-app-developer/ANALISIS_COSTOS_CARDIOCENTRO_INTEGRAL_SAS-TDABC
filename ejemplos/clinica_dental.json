@@ -1,0 +1,70 @@
+{
+    "empresa": {
+        "nombre_empresa": "Mi Clínica S.A.S.",
+        "nit": "900123456-7",
+        "sector": "salud",
+        "pais": "Colombia",
+        "ciudad": "Bogotá"
+    },
+    "servicios": [
+        {
+            "codigo": "SV001",
+            "nombre": "Consulta General",
+            "categoria": "Consulta Externa",
+            "complejidad": "Baja",
+            "requiere_insumos": false,
+            "volumen_min": 50,
+            "volumen_max": 100,
+            "valor_min": 50000,
+            "valor_max": 80000
+        },
+        {
+            "codigo": "SV002",
+            "nombre": "Procedimiento Quirúrgico Menor",
+            "categoria": "Quirúrgico",
+            "complejidad": "Media",
+            "requiere_insumos": true,
+            "volumen_min": 5,
+            "volumen_max": 15,
+            "valor_min": 500000,
+            "valor_max": 1500000
+        }
+    ],
+    "categorias": {
+        "Consulta Externa": {
+            "descripcion": "Consultas médicas ambulatorias",
+            "complejidad_base": "Baja",
+            "requiere_insumos_default": false,
+            "volumen_min_default": 40,
+            "volumen_max_default": 100
+        },
+        "Quirúrgico": {
+            "descripcion": "Procedimientos quirúrgicos",
+            "complejidad_base": "Alta",
+            "requiere_insumos_default": true,
+            "volumen_min_default": 2,
+            "volumen_max_default": 10
+        }
+    },
+    "centros": [
+        {
+            "nombre": "Sede Principal",
+            "ciudad": "Bogotá",
+            "salas": 3
+        }
+    ],
+    "grupos_ocupacionales": [
+        [
+            "Médico General",
+            8000000
+        ],
+        [
+            "Enfermera",
+            3000000
+        ],
+        [
+            "Auxiliar",
+            1500000
+        ]
+    ]
+}

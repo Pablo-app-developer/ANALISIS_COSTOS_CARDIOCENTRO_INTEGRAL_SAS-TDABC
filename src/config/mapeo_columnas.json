@@ -1,0 +1,66 @@
+{
+    "nomina": {
+        "id": "ID",
+        "grupo": "Grupo Ocupacional",
+        "salario": "Salario Base Mensual",
+        "factor": "Factor Prestacional",
+        "costo_total": "Costo Total Mensual",
+        "cantidad": "Cantidad Personal",
+        "total_grupo": "Costo Total Grupo",
+        "centro": "Sede"
+    },
+    "contabilidad": {
+        "cuenta": "Código Cuenta",
+        "nombre": "Concepto",
+        "centro": "Sede",
+        "valor": "Valor Mensual",
+        "criterio": "Criterio Distribución",
+        "tipo": "Tipo Gasto"
+    },
+    "servicios": {
+        "codigo": "Código",
+        "nombre": "Nombre del Servicio",
+        "categoria": "Categoría",
+        "complejidad": "Complejidad",
+        "insumos": "Requiere Insumos",
+        "estado": "Estado"
+    },
+    "produccion": {
+        "codigo": "Código",
+        "servicio": "Servicio",
+        "centro": "Sede",
+        "cliente": "Aseguradora",
+        "cantidad": "Cantidad",
+        "valor_unitario": "Valor Facturado Promedio",
+        "valor_total": "Total Facturado"
+    },
+    "costeo_servicios": {
+        "codigo": "Código",
+        "servicio": "Servicio",
+        "centro": "Sede",
+        "mo": "Costo MO Directa",
+        "insumos": "Costo Insumos",
+        "cif": "Costo CIF (Indirecto)",
+        "total": "Costo Unitario Total",
+        "precio": "Precio Venta Prom.",
+        "margen_moneda": "Margen Unitario",
+        "margen_pct": "Margen %",
+        "volumen": "Volumen Mes"
+    },
+    "insumos": {
+        "codigo_servicio": "Código Servicio",
+        "nombre_servicio": "Nombre Servicio",
+        "tipo_insumo": "Tipo Insumo",
+        "cantidad": "Cantidad",
+        "costo_unitario": "Costo Unitario",
+        "costo_total": "Costo Total Insumo"
+    },
+    "ecuaciones_tiempo": {
+        "codigo_servicio": "Código Servicio",
+        "nombre_servicio": "Nombre Servicio",
+        "grupo": "Grupo Ocupacional",
+        "minutos": "Minutos Requeridos",
+        "factor": "Factor Complejidad",
+        "minutos_ajustados": "Minutos Ajustados"
+    }
+}

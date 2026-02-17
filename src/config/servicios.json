@@ -1,0 +1,254 @@
+{
+    "servicios": [
+        {
+            "codigo": "SV001",
+            "nombre": "Ecocardiograma Transtorácico",
+            "categoria": "Diagnóstico No Invasivo",
+            "complejidad": "Media",
+            "requiere_insumos": false,
+            "volumen_min": 15,
+            "volumen_max": 40,
+            "valor_min": 120000,
+            "valor_max": 350000
+        },
+        {
+            "codigo": "SV002",
+            "nombre": "Ecocardiograma Transesofágico",
+            "categoria": "Diagnóstico Invasivo",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "volumen_min": 2,
+            "volumen_max": 6,
+            "valor_min": 1500000,
+            "valor_max": 3500000
+        },
+        {
+            "codigo": "SV003",
+            "nombre": "Holter 24 Horas",
+            "categoria": "Diagnóstico No Invasivo",
+            "complejidad": "Media",
+            "requiere_insumos": false,
+            "volumen_min": 15,
+            "volumen_max": 40,
+            "valor_min": 120000,
+            "valor_max": 350000
+        },
+        {
+            "codigo": "SV004",
+            "nombre": "Holter 48 Horas",
+            "categoria": "Diagnóstico No Invasivo",
+            "complejidad": "Media",
+            "requiere_insumos": false,
+            "volumen_min": 15,
+            "volumen_max": 40,
+            "valor_min": 120000,
+            "valor_max": 350000
+        },
+        {
+            "codigo": "SV005",
+            "nombre": "Prueba de Esfuerzo",
+            "categoria": "Diagnóstico Funcional",
+            "complejidad": "Media",
+            "requiere_insumos": false,
+            "volumen_min": 10,
+            "volumen_max": 20,
+            "valor_min": 250000,
+            "valor_max": 550000
+        },
+        {
+            "codigo": "SV006",
+            "nombre": "Electrocardiograma",
+            "categoria": "Diagnóstico No Invasivo",
+            "complejidad": "Baja",
+            "requiere_insumos": false,
+            "valor_min": 120000,
+            "valor_max": 350000,
+            "volumen_min": 15,
+            "volumen_max": 40
+        },
+        {
+            "codigo": "SV007",
+            "nombre": "MAPA 24 Horas",
+            "categoria": "Diagnóstico No Invasivo",
+            "complejidad": "Media",
+            "requiere_insumos": false,
+            "valor_min": 120000,
+            "valor_max": 350000,
+            "volumen_min": 15,
+            "volumen_max": 40
+        },
+        {
+            "codigo": "SV008",
+            "nombre": "Ecocardiograma Doppler",
+            "categoria": "Diagnóstico No Invasivo",
+            "complejidad": "Media",
+            "requiere_insumos": false,
+            "valor_min": 120000,
+            "valor_max": 350000,
+            "volumen_min": 15,
+            "volumen_max": 40
+        },
+        {
+            "codigo": "SV009",
+            "nombre": "Ecocardiograma de Estrés",
+            "categoria": "Diagnóstico Funcional",
+            "complejidad": "Alta",
+            "requiere_insumos": false,
+            "valor_min": 250000,
+            "valor_max": 550000,
+            "volumen_min": 10,
+            "volumen_max": 20
+        },
+        {
+            "codigo": "SV010",
+            "nombre": "Tilt Test",
+            "categoria": "Diagnóstico Funcional",
+            "complejidad": "Media",
+            "requiere_insumos": false,
+            "valor_min": 250000,
+            "valor_max": 550000,
+            "volumen_min": 10,
+            "volumen_max": 20
+        },
+        {
+            "codigo": "SV011",
+            "nombre": "Estudio Electrofisiológico",
+            "categoria": "Diagnóstico Invasivo",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "valor_min": 1500000,
+            "valor_max": 3500000,
+            "volumen_min": 2,
+            "volumen_max": 6
+        },
+        {
+            "codigo": "SV012",
+            "nombre": "Cardioversión Eléctrica",
+            "categoria": "Terapéutico",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "volumen_min": 1,
+            "volumen_max": 3,
+            "valor_min": 5500000,
+            "valor_max": 35000000
+        },
+        {
+            "codigo": "SV013",
+            "nombre": "Implante Marcapasos",
+            "categoria": "Terapéutico",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "valor_min": 5500000,
+            "valor_max": 35000000,
+            "volumen_min": 1,
+            "volumen_max": 3
+        },
+        {
+            "codigo": "SV014",
+            "nombre": "Cateterismo Cardíaco Derecho",
+            "categoria": "Diagnóstico Invasivo",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "valor_min": 1500000,
+            "valor_max": 3500000,
+            "volumen_min": 2,
+            "volumen_max": 6
+        },
+        {
+            "codigo": "SV015",
+            "nombre": "Cateterismo Cardíaco Izquierdo",
+            "categoria": "Diagnóstico Invasivo",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "valor_min": 1500000,
+            "valor_max": 3500000,
+            "volumen_min": 2,
+            "volumen_max": 6
+        },
+        {
+            "codigo": "SV016",
+            "nombre": "Angioplastia Coronaria",
+            "categoria": "Terapéutico",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "valor_min": 5500000,
+            "valor_max": 35000000,
+            "volumen_min": 1,
+            "volumen_max": 3
+        },
+        {
+            "codigo": "SV017",
+            "nombre": "Ablación por Radiofrecuencia",
+            "categoria": "Terapéutico",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "valor_min": 5500000,
+            "valor_max": 35000000,
+            "volumen_min": 1,
+            "volumen_max": 3
+        },
+        {
+            "codigo": "SV018",
+            "nombre": "Cierre de CIA",
+            "categoria": "Terapéutico",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "valor_min": 5500000,
+            "valor_max": 35000000,
+            "volumen_min": 1,
+            "volumen_max": 3
+        },
+        {
+            "codigo": "SV019",
+            "nombre": "Estudio Hemodinámico Completo",
+            "categoria": "Diagnóstico Invasivo",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "valor_min": 1500000,
+            "valor_max": 3500000,
+            "volumen_min": 2,
+            "volumen_max": 6
+        },
+        {
+            "codigo": "SV020",
+            "nombre": "Biopsia Endomiocárdica",
+            "categoria": "Diagnóstico Invasivo",
+            "complejidad": "Alta",
+            "requiere_insumos": true,
+            "valor_min": 1500000,
+            "valor_max": 3500000,
+            "volumen_min": 2,
+            "volumen_max": 6
+        }
+    ],
+    "categorias": {
+        "Diagnóstico No Invasivo": {
+            "descripcion": "Procedimientos diagnósticos sin penetración corporal",
+            "complejidad_base": "Baja",
+            "requiere_insumos_default": false,
+            "volumen_min_default": 15,
+            "volumen_max_default": 40
+        },
+        "Diagnóstico Funcional": {
+            "descripcion": "Pruebas de función cardiovascular",
+            "complejidad_base": "Media",
+            "requiere_insumos_default": false,
+            "volumen_min_default": 10,
+            "volumen_max_default": 20
+        },
+        "Diagnóstico Invasivo": {
+            "descripcion": "Procedimientos diagnósticos con penetración corporal",
+            "complejidad_base": "Media-Alta",
+            "requiere_insumos_default": true,
+            "volumen_min_default": 2,
+            "volumen_max_default": 6
+        },
+        "Terapéutico": {
+            "descripcion": "Procedimientos de tratamiento",
+            "complejidad_base": "Alta",
+            "requiere_insumos_default": true,
+            "volumen_min_default": 1,
+            "volumen_max_default": 3
+        }
+    }
+}

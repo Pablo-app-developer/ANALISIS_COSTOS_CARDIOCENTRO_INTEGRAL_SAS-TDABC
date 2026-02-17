@@ -1,0 +1,130 @@
+{
+    "parametros_tdabc": {
+        "descripcion": "Parámetros fundamentales del modelo TDABC",
+        "tiempo_trabajo": {
+            "horas_mes": 184,
+            "descripcion": "Horas laborales por mes (8h x 23 días)",
+            "dias_laborales_mes": 23,
+            "horas_dia": 8,
+            "minutos_mes": 11040
+        },
+        "formatos_moneda": {
+            "simbolo": "$",
+            "separador_miles": ",",
+            "separador_decimal": ".",
+            "formato_excel": "$#,##0",
+            "formato_excel_decimales": "$#,##0.00"
+        },
+        "formatos_porcentaje": {
+            "formato_excel": "0.00%",
+            "decimales": 2
+        },
+        "periodos": {
+            "tipo_periodo": "mensual",
+            "descripcion": "Análisis mensual de costos",
+            "meses_año": 12
+        },
+        "tasas_prestaciones": {
+            "salud": 0.085,
+            "pension": 0.12,
+            "arl": 0.00522,
+            "caja_compensacion": 0.04,
+            "icbf": 0.03,
+            "sena": 0.02,
+            "cesantias": 0.0833,
+            "intereses_cesantias": 0.01,
+            "prima": 0.0833,
+            "vacaciones": 0.0417,
+            "total_prestaciones": 0.5205,
+            "descripcion": "Tasas de prestaciones sociales en Colombia"
+        },
+        "configuracion_hojas": {
+            "descripcion": "Configuración de hojas del modelo Excel",
+            "hojas_activas": [
+                {
+                    "nombre": "SERVICIOS",
+                    "activa": true,
+                    "orden": 1,
+                    "descripcion": "Catálogo de servicios"
+                },
+                {
+                    "nombre": "PRODUCCION",
+                    "activa": true,
+                    "orden": 2,
+                    "descripcion": "Volúmenes y facturación"
+                },
+                {
+                    "nombre": "CENTROS_COSTO",
+                    "activa": true,
+                    "orden": 3,
+                    "descripcion": "Centros de costo"
+                },
+                {
+                    "nombre": "GRUPOS_OCUPACIONALES",
+                    "activa": true,
+                    "orden": 4,
+                    "descripcion": "Grupos ocupacionales"
+                },
+                {
+                    "nombre": "NOMINA",
+                    "activa": true,
+                    "orden": 5,
+                    "descripcion": "Nómina y costos de personal"
+                },
+                {
+                    "nombre": "COSTOS_INDIRECTOS",
+                    "activa": true,
+                    "orden": 6,
+                    "descripcion": "Costos indirectos"
+                },
+                {
+                    "nombre": "DISTRIBUCION_TIEMPO",
+                    "activa": true,
+                    "orden": 7,
+                    "descripcion": "Distribución de tiempo por actividad"
+                },
+                {
+                    "nombre": "ECUACIONES_TIEMPO",
+                    "activa": true,
+                    "orden": 8,
+                    "descripcion": "Ecuaciones de tiempo por servicio"
+                },
+                {
+                    "nombre": "COSTO_CAPACIDAD",
+                    "activa": true,
+                    "orden": 9,
+                    "descripcion": "Costo de capacidad por centro"
+                },
+                {
+                    "nombre": "ASIGNACION_COSTOS",
+                    "activa": true,
+                    "orden": 10,
+                    "descripcion": "Asignación de costos a servicios"
+                },
+                {
+                    "nombre": "ANALISIS_RENTABILIDAD",
+                    "activa": true,
+                    "orden": 11,
+                    "descripcion": "Análisis de rentabilidad"
+                }
+            ]
+        },
+        "estilos_excel": {
+            "fuente_base": "Calibri",
+            "tamaño_fuente_normal": 11,
+            "tamaño_fuente_titulo": 14,
+            "tamaño_fuente_subtitulo": 12,
+            "color_header": "4472C4",
+            "color_header_texto": "FFFFFF",
+            "color_alternado": "F2F2F2"
+        },
+        "validaciones": {
+            "volumen_minimo": 0,
+            "volumen_maximo": 10000,
+            "precio_minimo": 0,
+            "precio_maximo": 100000000,
+            "salario_minimo": 1300000,
+            "salario_maximo": 50000000
+        }
+    }
+}

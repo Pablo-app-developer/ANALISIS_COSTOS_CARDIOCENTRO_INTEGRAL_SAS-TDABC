@@ -1,0 +1,83 @@
+{
+    "sistema": "PUC_Colombia",
+    "descripcion": "Plan Único de Cuentas - Colombia",
+    "cuentas_directas": {
+        "materia_prima": {
+            "codigo": "7105",
+            "nombre": "COSTO MATERIA PRIMA (INSUMOS)",
+            "tipo": "Variable",
+            "clase": "71"
+        },
+        "mano_obra_directa": {
+            "codigo": "7205",
+            "nombre": "COSTO MANO DE OBRA DIRECTA",
+            "tipo": "Fijo",
+            "clase": "72"
+        }
+    },
+    "costos_indirectos": [
+        {
+            "codigo": "7305",
+            "nombre": "Arrendamiento",
+            "presupuesto_mensual": 150000000,
+            "tipo": "Fijo",
+            "criterio_distribucion": "Capacidad Instalada (Minutos)"
+        },
+        {
+            "codigo": "7310",
+            "nombre": "Depreciación Equipos",
+            "presupuesto_mensual": 85000000,
+            "tipo": "Fijo",
+            "criterio_distribucion": "Capacidad Instalada (Minutos)"
+        },
+        {
+            "codigo": "7315",
+            "nombre": "Mantenimiento",
+            "presupuesto_mensual": 45000000,
+            "tipo": "Fijo",
+            "criterio_distribucion": "Capacidad Instalada (Minutos)"
+        },
+        {
+            "codigo": "7320",
+            "nombre": "Servicios Públicos",
+            "presupuesto_mensual": 35000000,
+            "tipo": "Fijo",
+            "criterio_distribucion": "Capacidad Instalada (Minutos)"
+        },
+        {
+            "codigo": "7325",
+            "nombre": "Seguros",
+            "presupuesto_mensual": 28000000,
+            "tipo": "Fijo",
+            "criterio_distribucion": "Capacidad Instalada (Minutos)"
+        },
+        {
+            "codigo": "7330",
+            "nombre": "Aseo y Limpieza",
+            "presupuesto_mensual": 18000000,
+            "tipo": "Fijo",
+            "criterio_distribucion": "Capacidad Instalada (Minutos)"
+        },
+        {
+            "codigo": "7335",
+            "nombre": "Vigilancia",
+            "presupuesto_mensual": 22000000,
+            "tipo": "Fijo",
+            "criterio_distribucion": "Capacidad Instalada (Minutos)"
+        },
+        {
+            "codigo": "7340",
+            "nombre": "Papelería",
+            "presupuesto_mensual": 5000000,
+            "tipo": "Fijo",
+            "criterio_distribucion": "Capacidad Instalada (Minutos)"
+        },
+        {
+            "codigo": "7390",
+            "nombre": "Otros",
+            "presupuesto_mensual": 15000000,
+            "tipo": "Fijo",
+            "criterio_distribucion": "Capacidad Instalada (Minutos)"
+        }
+    ]
+}

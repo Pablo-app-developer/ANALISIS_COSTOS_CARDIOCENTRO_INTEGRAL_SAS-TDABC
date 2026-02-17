@@ -1,0 +1,37 @@
+{
+    "tipo": "sedes",
+    "nombre_tipo": "Sedes Operativas",
+    "centros": [
+        {
+            "codigo": "S01",
+            "nombre": "Sede Norte - Bogotá",
+            "ciudad": "Bogotá",
+            "area_m2": 450,
+            "salas": 4,
+            "capacidad_mensual_minutos": 44160
+        },
+        {
+            "codigo": "S02",
+            "nombre": "Sede Sur - Medellín",
+            "ciudad": "Medellín",
+            "area_m2": 380,
+            "salas": 3,
+            "capacidad_mensual_minutos": 33120
+        },
+        {
+            "codigo": "S03",
+            "nombre": "Sede Centro - Cali",
+            "ciudad": "Cali",
+            "area_m2": 420,
+            "salas": 2,
+            "capacidad_mensual_minutos": 22080
+        }
+    ],
+    "aseguradoras": [
+        "SURA",
+        "Sanitas",
+        "Compensar",
+        "Salud Total",
+        "Nueva EPS"
+    ]
+}
